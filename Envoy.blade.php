@@ -8,7 +8,7 @@
     {{-- Update composer to latest version --}}
     composer self-update
     {{-- Pull latest changes from Repository --}}
-    git pull origin
+    git pull origin master
     {{-- Install project dependencies without development dependencies and without interaction --}}
     composer install --prefer-source --no-interaction --no-dev
     {{-- If there is anything to migrate, migrate it --}}
